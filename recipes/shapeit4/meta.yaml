@@ -1,12 +1,12 @@
-{% set version = "4.0" %}
+{% set version = "4.1.1" %}
 
 package:
   name: shapeit4
   version: {{ version }}
 
 source:
-  url: https://github.com/odelaneau/shapeit4/archive/v{{ version }}.tar.gz
-  sha256: 01dbc4126c05fc3c2b9dbc21a11dcc3de558d3e76fb3ff1368db23cf39f0a7f9
+  git_url: git@github.com:odelaneau/shapeit4.git
+  git_rev: 910d28a3661646c31a766ce5147601e469eab28d
 
 build:
   skip: True # [osx]
